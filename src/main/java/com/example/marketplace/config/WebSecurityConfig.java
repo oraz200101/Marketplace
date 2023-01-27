@@ -48,6 +48,7 @@ public class WebSecurityConfig  {
                 .requestMatchers(HttpMethod.GET,"/api/category/**","/api/category/**").permitAll()
                 .requestMatchers(HttpMethod.POST,"/api/category/**","/api/product/**").hasAuthority("ADMIN")
                 .requestMatchers(HttpMethod.PUT,"/api/category/**","/api/product/**").hasAuthority("ADMIN")
+                .requestMatchers("/api/bucket/**").authenticated()
                 .requestMatchers("/api/comment/**").authenticated()
                 .requestMatchers("/swagger-ui/**","/v3/api-docs/**","/api/auth/**").permitAll()
                 .anyRequest().authenticated()

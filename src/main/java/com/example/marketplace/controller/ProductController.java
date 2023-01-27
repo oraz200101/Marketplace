@@ -51,7 +51,7 @@ public class ProductController {
         return ResponseEntity.ok(productService.searchWithFilter(searchRequestDto,pageable,pageNumber));
     }
 
-    @PostMapping("/{id}/bucket")
+    @GetMapping("/{id}/bucket")
     @Operation(description = DESCRIPTION_OF_API_FOR_ADD_PRODUCT_TO_BUCKET)
     public ResponseEntity<String> addToUserBucket(@PathVariable Long id, Principal principal){
         return ResponseEntity.ok(productService.addToUserBucket(id,principal.getName()));
