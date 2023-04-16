@@ -5,15 +5,11 @@ import com.example.marketplace.exception.domain.UserNotFoundByPhoneNumberExcepti
 import com.example.marketplace.model.dto.*;
 import com.example.marketplace.model.entity.User;
 import com.example.marketplace.model.enums.Role;
-import com.example.marketplace.model.repository.UserRepository;
+import com.example.marketplace.repository.UserRepository;
 import com.example.marketplace.service.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

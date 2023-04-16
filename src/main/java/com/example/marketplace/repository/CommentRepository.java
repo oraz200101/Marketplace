@@ -1,4 +1,4 @@
-package com.example.marketplace.model.repository;
+package com.example.marketplace.repository;
 
 import com.example.marketplace.model.entity.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -4,7 +4,7 @@ import com.example.marketplace.model.dto.CreateCategoryDto;
 import com.example.marketplace.model.dto.SearchRequestDto;
 import com.example.marketplace.model.dto.CategoryUpdateDto;
 import com.example.marketplace.model.entity.Category;
-import com.example.marketplace.model.repository.CategoryRepository;
+import com.example.marketplace.repository.CategoryRepository;
 import com.example.marketplace.service.CategoryService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

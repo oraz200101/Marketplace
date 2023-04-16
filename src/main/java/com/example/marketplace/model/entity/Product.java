@@ -2,7 +2,6 @@ package com.example.marketplace.model.entity;
 
 import com.example.marketplace.model.entity.base.BaseEntity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonView;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import lombok.*;

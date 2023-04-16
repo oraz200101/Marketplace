@@ -13,7 +13,7 @@ import java.util.List;
 @Getter
 @Setter
 @NoArgsConstructor
-@JsonIgnoreProperties(ignoreUnknown = true)
+@JsonIgnoreProperties
 public class Bucket extends BaseEntity {
     @JsonIgnore
     @OneToOne(mappedBy = "bucket")

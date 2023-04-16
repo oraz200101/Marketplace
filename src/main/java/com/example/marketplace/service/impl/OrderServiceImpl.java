@@ -3,14 +3,13 @@ package com.example.marketplace.service.impl;
 import com.example.marketplace.model.dto.OrderCreateDto;
 import com.example.marketplace.model.entity.*;
 import com.example.marketplace.model.enums.OrderStatus;
-import com.example.marketplace.model.repository.OrderRepository;
-import com.example.marketplace.model.repository.UserRepository;
+import com.example.marketplace.repository.OrderRepository;
+import com.example.marketplace.repository.UserRepository;
 import com.example.marketplace.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;

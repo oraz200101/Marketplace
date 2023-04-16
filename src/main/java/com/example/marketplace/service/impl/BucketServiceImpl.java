@@ -3,14 +3,12 @@ package com.example.marketplace.service.impl;
 import com.example.marketplace.model.entity.Bucket;
 import com.example.marketplace.model.entity.Product;
 import com.example.marketplace.model.entity.User;
-import com.example.marketplace.model.repository.BucketRepository;
-import com.example.marketplace.model.repository.ProductRepository;
+import com.example.marketplace.repository.BucketRepository;
+import com.example.marketplace.repository.ProductRepository;
 import com.example.marketplace.service.BucketService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
